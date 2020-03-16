@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 %global crate hyperfine
 
 Name:           rust-%{crate}

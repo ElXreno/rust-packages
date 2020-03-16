@@ -1,3 +1,5 @@
+%global debug_package %{nil}
+
 %global crate fd
 
 Name:           rust-%{crate}
