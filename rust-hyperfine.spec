@@ -22,7 +22,7 @@ Command-line benchmarking tool.
 
 
 %prep
-%autosetup
+%autosetup -n %{crate}-%{version}
 
 
 %build

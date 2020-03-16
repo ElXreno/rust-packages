@@ -22,7 +22,7 @@ Fd is a simple, fast and user-friendly alternative to find.
 
 
 %prep
-%autosetup
+%autosetup -n %{crate}-%{version}
 
 
 %build
