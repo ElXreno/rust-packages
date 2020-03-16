@@ -37,7 +37,7 @@ rm -f %{buildroot}%{_prefix}/.crates.toml %{buildroot}%{_prefix}/.crates2.json
 
 
 %files
-%doc README.md
+%doc README.md CONTRIBUTING.md
 %license LICENSE-APACHE LICENSE-MIT
 %{_bindir}/%{crate}
 
